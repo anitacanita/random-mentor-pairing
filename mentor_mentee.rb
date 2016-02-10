@@ -1,6 +1,6 @@
 require 'csv'
 
-mentor_mentee = CSV.read('mentor_mentee_feb16.csv')
+mentor_mentee = CSV.read('*.csv')
 
 juniors = []
 seniors = []
