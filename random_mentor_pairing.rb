@@ -1,6 +1,5 @@
 require 'csv'
 
-# replace `path/to/file.csv` with the .csv file to be used
 mentor_mentee = CSV.read('path/to/file.csv')
 
 juniors = []
